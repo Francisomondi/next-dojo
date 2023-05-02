@@ -7,7 +7,7 @@ const reviewDetails = () => {
     const {productId,reviewId}= router.query
   return (
     <div>
-    <h1>this will show review {reviewId} of product {productId}</h1>
+    <h1>this will show review {reviewId} for product {productId}</h1>
     </div>
   )
 }
